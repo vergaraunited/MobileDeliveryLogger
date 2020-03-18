@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using MobileDeliveryLogger.Interfaces;
 using MobileDeliveryLogger.BaseClasses;
-using Windows.Storage;
+//using Windows.Storage;
 
 namespace MobileDeliveryLogger.Loggers
 {
