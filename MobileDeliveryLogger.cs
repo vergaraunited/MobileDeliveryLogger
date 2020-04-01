@@ -31,7 +31,7 @@ namespace MobileDeliveryLogger
         {
             try
             {
-                if (level >= LogLevel.Info)
+                if (level >= BaseLogger.Level)
                 { 
                     foreach( var it in file)
                     {
