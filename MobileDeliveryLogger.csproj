@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup Label="Globals">
     <SccProjectName>SAK</SccProjectName>
@@ -18,6 +18,7 @@
     <RepositoryUrl>https://github.com/vergaraunited/MobileDeliveryLogger</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageIconUrl>https://unitedwindowmfg.com/wp-content/uploads/2017/02/New-Logo-4.png</PackageIconUrl>
+    <IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
