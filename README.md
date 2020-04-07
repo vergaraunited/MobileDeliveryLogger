@@ -1,6 +1,8 @@
-# MobileDeliveryLogger
-## V1.4.0
-## United Mobile Delivery Logger shared amongts all projects for standardized logging.
+# MobileDeliveryLogger ![MobileDeliveryLogger Nuget Versions (UMDNuget Artifacts)][logo]
+## [v1.4.1](https://dev.azure.com/unitedwindowmfg/United%20Mobile%20Delivery/_packaging?_a=package&feed=UMDNuget&package=MobileDeliveryGeneral&protocolType=NuGet&version=1.4.4&view=versions)
+[logo]: https://github.com/vergaraunited/Docs/blob/master/imgs/png/logger_icon.png (http://www.google.com)
+
+### Mobile Delivery Logger shared amongts all projects for standardized logging.
 
 ## NuGet Package References
 ![NuGet Package Model](https://github.com/vergaraunited/Docs/blob/master/imgs/MobileDeliveryModel.jpg)
