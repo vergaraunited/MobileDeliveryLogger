@@ -1,7 +1,11 @@
 # MobileDeliveryLogger
+## V1.4.0
 ## United Mobile Delivery Logger shared amongts all projects for standardized logging.
 
 ## NuGet Package References
+![NuGet Package Model](https://github.com/vergaraunited/Docs/blob/master/imgs/MobileDeliveryModel.jpg)
+
+
 #### UMDNuGet - Azure Artifact Repository
 ##### nuget.config file
 ```xml
@@ -12,15 +16,6 @@
   </packageSources>
 </configuration>
 ```
-
-Package Name            | Version   | Description
---------------------    | -------   | -----------
-MobileDeliveryGeneral              | 1.1.0     | Mobile Delivery General Code
-MobileDeliveryServer    | 1.3.0     | Mobile Delivery Server base code for all servers
-MobilDeliveryClient     | 1.1.0     | Mobile Delivery Client base code for all clients
-MobileDeliveryLogger    | 1.0.0     | Mobile Delivery Logger base code for all components
-MobileDeliverySettings  | 1.0.0     | Mobile Delivery Settings base code for all components
-
     
 ## Configuration
 #### Configuration is built into the docker image based on the settings in the app.config
