@@ -1,4 +1,5 @@
 # MobileDeliveryLogger
+## V1.4.0
 ## United Mobile Delivery Logger shared amongts all projects for standardized logging.
 
 ## NuGet Package References
