@@ -10,15 +10,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.3</LangVersion>
-    <Version>1.4.1</Version>
+    <Version>1.5.2</Version>
     <Description>Logger for all Mobile Delivery applications.</Description>
-    <PackageReleaseNotes>v1.4.1 - Autogen nupkg with Symbols - redeploy NuGet Logger.</PackageReleaseNotes>
+    <PackageReleaseNotes>v1.5.2</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/vergaraunited/MobileDeliveryLogger</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageIconUrl>https://unitedwindowmfg.com/wp-content/uploads/2017/02/New-Logo-4.png</PackageIconUrl>
     <IncludeSymbols>true</IncludeSymbols>
-    <AssemblyVersion>1.4.1.0</AssemblyVersion>
+    <AssemblyVersion>1.5.2.0</AssemblyVersion>
   </PropertyGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
