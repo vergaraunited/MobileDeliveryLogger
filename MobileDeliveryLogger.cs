@@ -3,6 +3,7 @@ using MobileDeliveryLogger.Interfaces;
 using MobileDeliveryLogger.Loggers;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace MobileDeliveryLogger
 {
@@ -32,12 +33,11 @@ namespace MobileDeliveryLogger
             try
             {
                 if (level >= BaseLogger.Level)
-                { 
-                    foreach( var it in file)
-                    {
-                        message = DateTime.Now.ToShortDateString().ToString() + " " + DateTime.Now.ToLongTimeString().ToString() + " ==> " + message + ex?.Message;
+                {
+                    message = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture) + "=> " +
+                            message + ex?.Message;
+                    foreach ( var it in file)
                         it.WriteToLog(message, level, ex);
-                    }
                     //if (ex != null)
                     //    Console.WriteLine(String.Format("{0}:{1}:{2}:{3}:{4}", DateTime.Now, level, AppName, message, ex));
                     //else
