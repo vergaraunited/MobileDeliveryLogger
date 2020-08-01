@@ -1,9 +1,4 @@
-﻿using MobileDeliveryLogger.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MobileDeliveryLogger.BaseClasses
+﻿namespace MobileDeliveryLogger.BaseClasses
 {
     public abstract class BaseLogger
     {
